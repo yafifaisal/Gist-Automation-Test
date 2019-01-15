@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_gist_list</name>
+   <tag></tag>
+   <elementGuidId>38839277-126a-4621-ae7a-9f62478a8111</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;gist-pjax-container&quot;]/div[2]/div[1]/div[1]/div[1]/div/span[1]/a[2]/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;gist-pjax-container&quot;]/div[2]/div[1]/div[1]/div[1]/div/span[1]/a[2]/strong</value>
+   </webElementProperties>
+</WebElementEntity>

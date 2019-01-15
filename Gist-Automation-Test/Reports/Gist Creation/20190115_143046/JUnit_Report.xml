@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Gist Creation" time="178" tests="4" failures="0" errors="0">
+   <testsuite name="Gist Creation" tests="4" failures="0" errors="0" time="178" timestamp="2019-01-15 14:30:59" hostname="mac0wrhf1qsdb - 10.10.24.123" id="Test Suites/Gist Creation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mac0wrhf1qsdb/Documents/YAFI/TestAutomation/Gist Automation Test/Reports/Gist Creation/20190115_143046"/>
+         <property name="logFiles" value="/Users/mac0wrhf1qsdb/Documents/YAFI/TestAutomation/Gist Automation Test/Reports/Gist Creation/20190115_143046/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mac0wrhf1qsdb - 10.10.24.123"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.10.24.123"/>
+         <property name="sessionId" value="35130f9fa2151041564dcae4680057f1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Create Gist" classname="Test Cases/Create Gist" status="PASSED">
+         <system-out><![CDATA[2019-01-15 14:30:59 - [TEST_CASE][PASSED] - Test Cases/Create Gist: Test Cases/Create Gist
+
+2019-01-15 14:31:00 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:31:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-15 14:31:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-15 14:31:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_button")): Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/username_field"), username): Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:31:27 - [MESSAGE][PASSED] - Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/password_field"), password): Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:31:27 - [MESSAGE][PASSED] - Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_commit_button")): Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Gist Creation/gist_desc_field"), "New Gist Description"): Text 'New Gist Description' is set on object 'Object Repository/Gist Creation/gist_desc_field'
+
+2019-01-15 14:31:42 - [MESSAGE][PASSED] - Text 'New Gist Description' is set on object 'Object Repository/Gist Creation/gist_desc_field'
+
+2019-01-15 14:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Gist Creation/file_extension_field"), "New Gist File Extension.txt"): Text 'New Gist File Extension.txt' is set on object 'Object Repository/Gist Creation/file_extension_field'
+
+2019-01-15 14:31:42 - [MESSAGE][PASSED] - Text 'New Gist File Extension.txt' is set on object 'Object Repository/Gist Creation/file_extension_field'
+
+2019-01-15 14:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Gist Creation/gist_code_first_line")): Object: 'Object Repository/Gist Creation/gist_code_first_line' is clicked on
+
+2019-01-15 14:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_code_first_line' is clicked on
+
+2019-01-15 14:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Gist Creation/gist_code_first_line"), "New Gist Code"): Text 'New Gist Code' is set on object 'Object Repository/Gist Creation/gist_code_first_line'
+
+2019-01-15 14:31:48 - [MESSAGE][PASSED] - Text 'New Gist Code' is set on object 'Object Repository/Gist Creation/gist_code_first_line'
+
+2019-01-15 14:31:48 - [TEST_STEP][PASSED] - extension = getAttribute(findTestObject("Gist Creation/file_extension_field"), "value"): Attribute 'value' of object 'Object Repository/Gist Creation/file_extension_field' is: 'New Gist File Extension.txt'
+
+2019-01-15 14:31:48 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Gist Creation/file_extension_field' is: 'New Gist File Extension.txt'
+
+2019-01-15 14:31:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-15 14:31:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-15 14:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Gist Creation/public_gist_button")): Object: 'Object Repository/Gist Creation/public_gist_button' is clicked on
+
+2019-01-15 14:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/public_gist_button' is clicked on
+
+2019-01-15 14:32:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-15 14:32:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-15 14:32:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Gist Edit/detail_gist_extension"), extension): Actual text and expected text of test object 'Object Repository/Gist Edit/detail_gist_extension' are matched.
+
+2019-01-15 14:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Gist Edit/detail_gist_extension' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Gist" classname="Test Cases/Edit Gist" status="PASSED">
+         <system-out><![CDATA[2019-01-15 14:32:11 - [TEST_CASE][PASSED] - Test Cases/Edit Gist: Test Cases/Edit Gist
+
+2019-01-15 14:32:12 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:32:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-15 14:32:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-15 14:32:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_button")): Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:32:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/username_field"), username): Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:32:34 - [MESSAGE][PASSED] - Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:32:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/password_field"), password): Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:32:34 - [MESSAGE][PASSED] - Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_commit_button")): Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/view_gist_list_label")): Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/first_gist_list")): Object: 'Object Repository/Gist Edit/first_gist_list' is clicked on
+
+2019-01-15 14:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/first_gist_list' is clicked on
+
+2019-01-15 14:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/edit_gist_button")): Object: 'Object Repository/Gist Edit/edit_gist_button' is clicked on
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/edit_gist_button' is clicked on
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/gist_desc_field"), "Edit Gist Description"): Text 'Edit Gist Description' is set on object 'Object Repository/Gist Creation/gist_desc_field'
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Text 'Edit Gist Description' is set on object 'Object Repository/Gist Creation/gist_desc_field'
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Gist Creation/file_extension_field"), "Edit Gist File Extension.txt"): Text 'Edit Gist File Extension.txt' is set on object 'Object Repository/Gist Creation/file_extension_field'
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Text 'Edit Gist File Extension.txt' is set on object 'Object Repository/Gist Creation/file_extension_field'
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Gist Creation/gist_code_first_line")): Object: 'Object Repository/Gist Creation/gist_code_first_line' is clicked on
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_code_first_line' is clicked on
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Gist Creation/gist_code_first_line"), "Edit Gist Code"): Text 'Edit Gist Code' is set on object 'Object Repository/Gist Creation/gist_code_first_line'
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Text 'Edit Gist Code' is set on object 'Object Repository/Gist Creation/gist_code_first_line'
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - edit_extension = getAttribute(findTestObject("Gist Creation/file_extension_field"), "value"): Attribute 'value' of object 'Object Repository/Gist Creation/file_extension_field' is: 'Edit Gist File Extension.txt'
+
+2019-01-15 14:32:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Gist Creation/file_extension_field' is: 'Edit Gist File Extension.txt'
+
+2019-01-15 14:32:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-15 14:32:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-15 14:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/update_gist_button")): Object: 'Object Repository/Gist Edit/update_gist_button' is clicked on
+
+2019-01-15 14:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/update_gist_button' is clicked on
+
+2019-01-15 14:32:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-15 14:33:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-15 14:33:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Gist Edit/detail_gist_extension"), edit_extension): Actual text and expected text of test object 'Object Repository/Gist Edit/detail_gist_extension' are matched.
+
+2019-01-15 14:33:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Gist Edit/detail_gist_extension' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View List Gist" classname="Test Cases/View List Gist" status="PASSED">
+         <system-out><![CDATA[2019-01-15 14:33:05 - [TEST_CASE][PASSED] - Test Cases/View List Gist: Test Cases/View List Gist
+
+2019-01-15 14:33:05 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:33:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-15 14:33:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-15 14:33:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_button")): Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/username_field"), username): Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:33:29 - [MESSAGE][PASSED] - Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/password_field"), password): Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:33:29 - [MESSAGE][PASSED] - Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_commit_button")): Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/view_gist_list_label")): Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:33:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Gist Edit/all_gist_tab"), 0): Object 'Object Repository/Gist Edit/all_gist_tab' is present
+
+2019-01-15 14:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-15 14:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/Gist Edit/all_gist_tab' is present
+
+2019-01-15 14:33:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Gist Edit/first_gist_list"), "Edit Gist File Extension.txt"): Actual text and expected text of test object 'Object Repository/Gist Edit/first_gist_list' are matched.
+
+2019-01-15 14:33:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Gist Edit/first_gist_list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Gist" classname="Test Cases/Delete Gist" status="PASSED">
+         <system-out><![CDATA[2019-01-15 14:33:34 - [TEST_CASE][PASSED] - Test Cases/Delete Gist: Test Cases/Delete Gist
+
+2019-01-15 14:33:34 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:33:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-15 14:33:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-15 14:33:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/'
+
+2019-01-15 14:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_button")): Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_button' is clicked on
+
+2019-01-15 14:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/username_field"), username): Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:33:50 - [MESSAGE][PASSED] - Text 'yafifaisal' is set on object 'Object Repository/Gist Creation/username_field'
+
+2019-01-15 14:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gist Creation/password_field"), password): Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:33:51 - [MESSAGE][PASSED] - Text 'M4ut4u4j4' is set on object 'Object Repository/Gist Creation/password_field'
+
+2019-01-15 14:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/sign_in_commit_button")): Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/sign_in_commit_button' is clicked on
+
+2019-01-15 14:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Creation/gist_homepage_title")): Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Creation/gist_homepage_title' is clicked on
+
+2019-01-15 14:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/view_gist_list_label")): Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/view_gist_list_label' is clicked on
+
+2019-01-15 14:33:55 - [TEST_STEP][PASSED] - counterGist = getText(findTestObject("Object Repository/Gist Edit/counter_gist_list")).toInteger(): Text of object 'Object Repository/Gist Edit/counter_gist_list' is: '1'
+
+2019-01-15 14:33:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Gist Edit/counter_gist_list' is: '1'
+
+2019-01-15 14:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/first_gist_list")): Object: 'Object Repository/Gist Edit/first_gist_list' is clicked on
+
+2019-01-15 14:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/first_gist_list' is clicked on
+
+2019-01-15 14:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gist Edit/delete_gist_button")): Object: 'Object Repository/Gist Edit/delete_gist_button' is clicked on
+
+2019-01-15 14:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist Edit/delete_gist_button' is clicked on
+
+2019-01-15 14:33:55 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-01-15 14:33:56 - [MESSAGE][PASSED] - Alert accepted
+
+2019-01-15 14:33:56 - [TEST_STEP][PASSED] - current_counterGist = counterGist - 1: null
+
+2019-01-15 14:33:56 - [TEST_STEP][PASSED] - counter = current_counterGist.toString(): null
+
+2019-01-15 14:33:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Gist Edit/counter_gist_list"), counter): Actual text and expected text of test object 'Object Repository/Gist Edit/counter_gist_list' are matched.
+
+2019-01-15 14:33:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Gist Edit/counter_gist_list' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-15 14:30:59 - [TEST_SUITE][PASSED] - Gist Creation: Test Cases/Delete Gist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

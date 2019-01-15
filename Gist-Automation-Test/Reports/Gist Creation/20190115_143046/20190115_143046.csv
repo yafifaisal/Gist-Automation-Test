@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Gist Creation,Chrome 71.0.3578.98,,2019-01-15 14:30:59,2019-01-15 14:33:57,2m - 58.044s,PASSED
+,,,,,,
+Test Cases/Create Gist,Chrome 71.0.3578.98,,2019-01-15 14:30:59,2019-01-15 14:32:11,1m - 12.028s,PASSED
+openBrowser(url),Chrome 71.0.3578.98,,2019-01-15 14:31:00,2019-01-15 14:31:12,12.275s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:31:12,2019-01-15 14:31:20,7.418s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_button""))",Chrome 71.0.3578.98,,2019-01-15 14:31:20,2019-01-15 14:31:26,6.495s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/username_field""), username)",Chrome 71.0.3578.98,,2019-01-15 14:31:26,2019-01-15 14:31:27,0.311s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/password_field""), password)",Chrome 71.0.3578.98,,2019-01-15 14:31:27,2019-01-15 14:31:27,0.146s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_commit_button""))",Chrome 71.0.3578.98,,2019-01-15 14:31:27,2019-01-15 14:31:35,8.524s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:31:35,2019-01-15 14:31:42,6.519s,PASSED
+"setText(findTestObject(""Gist Creation/gist_desc_field""), ""New Gist Description"")",Chrome 71.0.3578.98,,2019-01-15 14:31:42,2019-01-15 14:31:42,0.199s,PASSED
+"setText(findTestObject(""Gist Creation/file_extension_field""), ""New Gist File Extension.txt"")",Chrome 71.0.3578.98,,2019-01-15 14:31:42,2019-01-15 14:31:42,0.245s,PASSED
+"click(findTestObject(""Gist Creation/gist_code_first_line""))",Chrome 71.0.3578.98,,2019-01-15 14:31:42,2019-01-15 14:31:48,5.366s,PASSED
+"setText(findTestObject(""Gist Creation/gist_code_first_line""), ""New Gist Code"")",Chrome 71.0.3578.98,,2019-01-15 14:31:48,2019-01-15 14:31:48,0.346s,PASSED
+"extension = getAttribute(findTestObject(""Gist Creation/file_extension_field""), ""value"")",Chrome 71.0.3578.98,,2019-01-15 14:31:48,2019-01-15 14:31:48,0.052s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-15 14:31:48,2019-01-15 14:31:53,5.025s,PASSED
+"click(findTestObject(""Gist Creation/public_gist_button""))",Chrome 71.0.3578.98,,2019-01-15 14:31:53,2019-01-15 14:32:01,8.374s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-15 14:32:01,2019-01-15 14:32:11,10.006s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Gist Edit/detail_gist_extension""), extension)",Chrome 71.0.3578.98,,2019-01-15 14:32:11,2019-01-15 14:32:11,0.056s,PASSED
+,,,,,,
+Test Cases/Edit Gist,Chrome 71.0.3578.98,,2019-01-15 14:32:11,2019-01-15 14:33:05,53.501s,PASSED
+openBrowser(url),Chrome 71.0.3578.98,,2019-01-15 14:32:12,2019-01-15 14:32:26,14.136s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:32:26,2019-01-15 14:32:29,3.311s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_button""))",Chrome 71.0.3578.98,,2019-01-15 14:32:29,2019-01-15 14:32:34,5.007s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/username_field""), username)",Chrome 71.0.3578.98,,2019-01-15 14:32:34,2019-01-15 14:32:34,0.171s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/password_field""), password)",Chrome 71.0.3578.98,,2019-01-15 14:32:34,2019-01-15 14:32:34,0.148s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_commit_button""))",Chrome 71.0.3578.98,,2019-01-15 14:32:34,2019-01-15 14:32:40,6.012s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:32:40,2019-01-15 14:32:42,1.946s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/view_gist_list_label""))",Chrome 71.0.3578.98,,2019-01-15 14:32:42,2019-01-15 14:32:43,1.020s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/first_gist_list""))",Chrome 71.0.3578.98,,2019-01-15 14:32:43,2019-01-15 14:32:45,1.454s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/edit_gist_button""))",Chrome 71.0.3578.98,,2019-01-15 14:32:45,2019-01-15 14:32:47,1.734s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/gist_desc_field""), ""Edit Gist Description"")",Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:47,0.251s,PASSED
+"setText(findTestObject(""Gist Creation/file_extension_field""), ""Edit Gist File Extension.txt"")",Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:47,0.265s,PASSED
+"click(findTestObject(""Gist Creation/gist_code_first_line""))",Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:47,0.076s,PASSED
+"setText(findTestObject(""Gist Creation/gist_code_first_line""), ""Edit Gist Code"")",Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:47,0.203s,PASSED
+"edit_extension = getAttribute(findTestObject(""Gist Creation/file_extension_field""), ""value"")",Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:47,0.020s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-15 14:32:47,2019-01-15 14:32:52,5.005s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/update_gist_button""))",Chrome 71.0.3578.98,,2019-01-15 14:32:52,2019-01-15 14:32:55,2.501s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-15 14:32:55,2019-01-15 14:33:05,10.003s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Gist Edit/detail_gist_extension""), edit_extension)",Chrome 71.0.3578.98,,2019-01-15 14:33:05,2019-01-15 14:33:05,0.053s,PASSED
+,,,,,,
+Test Cases/View List Gist,Chrome 71.0.3578.98,,2019-01-15 14:33:05,2019-01-15 14:33:34,29.129s,PASSED
+openBrowser(url),Chrome 71.0.3578.98,,2019-01-15 14:33:05,2019-01-15 14:33:11,6.231s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:33:11,2019-01-15 14:33:18,7.005s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_button""))",Chrome 71.0.3578.98,,2019-01-15 14:33:18,2019-01-15 14:33:29,10.803s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/username_field""), username)",Chrome 71.0.3578.98,,2019-01-15 14:33:29,2019-01-15 14:33:29,0.176s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/password_field""), password)",Chrome 71.0.3578.98,,2019-01-15 14:33:29,2019-01-15 14:33:29,0.128s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_commit_button""))",Chrome 71.0.3578.98,,2019-01-15 14:33:29,2019-01-15 14:33:32,3.000s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:33:32,2019-01-15 14:33:33,0.794s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/view_gist_list_label""))",Chrome 71.0.3578.98,,2019-01-15 14:33:33,2019-01-15 14:33:34,0.736s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Gist Edit/all_gist_tab""), 0)",Chrome 71.0.3578.98,,2019-01-15 14:33:34,2019-01-15 14:33:34,0.044s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Gist Edit/first_gist_list""), ""Edit Gist File Extension.txt"")",Chrome 71.0.3578.98,,2019-01-15 14:33:34,2019-01-15 14:33:34,0.039s,PASSED
+,,,,,,
+Test Cases/Delete Gist,Chrome 71.0.3578.98,,2019-01-15 14:33:34,2019-01-15 14:33:57,22.774s,PASSED
+openBrowser(url),Chrome 71.0.3578.98,,2019-01-15 14:33:34,2019-01-15 14:33:47,12.626s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:33:47,2019-01-15 14:33:48,1.501s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_button""))",Chrome 71.0.3578.98,,2019-01-15 14:33:48,2019-01-15 14:33:50,1.974s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/username_field""), username)",Chrome 71.0.3578.98,,2019-01-15 14:33:50,2019-01-15 14:33:50,0.158s,PASSED
+"setText(findTestObject(""Object Repository/Gist Creation/password_field""), password)",Chrome 71.0.3578.98,,2019-01-15 14:33:50,2019-01-15 14:33:51,0.130s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/sign_in_commit_button""))",Chrome 71.0.3578.98,,2019-01-15 14:33:51,2019-01-15 14:33:53,2.430s,PASSED
+"click(findTestObject(""Object Repository/Gist Creation/gist_homepage_title""))",Chrome 71.0.3578.98,,2019-01-15 14:33:53,2019-01-15 14:33:54,0.850s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/view_gist_list_label""))",Chrome 71.0.3578.98,,2019-01-15 14:33:54,2019-01-15 14:33:55,0.642s,PASSED
+"counterGist = getText(findTestObject(""Object Repository/Gist Edit/counter_gist_list"")).toInteger()",Chrome 71.0.3578.98,,2019-01-15 14:33:55,2019-01-15 14:33:55,0.056s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/first_gist_list""))",Chrome 71.0.3578.98,,2019-01-15 14:33:55,2019-01-15 14:33:55,0.742s,PASSED
+"click(findTestObject(""Object Repository/Gist Edit/delete_gist_button""))",Chrome 71.0.3578.98,,2019-01-15 14:33:55,2019-01-15 14:33:55,0.162s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-15 14:33:55,2019-01-15 14:33:56,0.040s,PASSED
+current_counterGist = counterGist - 1,Chrome 71.0.3578.98,,2019-01-15 14:33:56,2019-01-15 14:33:56,0.001s,PASSED
+counter = current_counterGist.toString(),Chrome 71.0.3578.98,,2019-01-15 14:33:56,2019-01-15 14:33:56,0.002s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Gist Edit/counter_gist_list""), counter)",Chrome 71.0.3578.98,,2019-01-15 14:33:56,2019-01-15 14:33:57,1.305s,PASSED
